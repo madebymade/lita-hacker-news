@@ -1,6 +1,6 @@
 # lita-hackers-news
 
-TODO: Add a description of the plugin.
+[![Build Status](https://travis-ci.org/madebymade/lita-hackers-news.svg?branch=master)](https://travis-ci.org/madebymade/lita-hackers-news)
 
 ## Installation
 
