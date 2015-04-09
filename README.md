@@ -1,6 +1,8 @@
 # lita-hackers-news
 
 [![Build Status](https://travis-ci.org/madebymade/lita-hackers-news.svg?branch=master)](https://travis-ci.org/madebymade/lita-hackers-news)
+[![Code Climate](https://codeclimate.com/github/madebymade/lita-hackers-news/badges/gpa.svg)](https://codeclimate.com/github/madebymade/lita-hackers-news)
+[![Test Coverage](https://codeclimate.com/github/madebymade/lita-hackers-news/badges/coverage.svg)](https://codeclimate.com/github/madebymade/lita-hackers-news)
 
 ## Installation
 
