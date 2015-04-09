@@ -28,7 +28,7 @@ TODO: Describe any configuration attributes the plugin exposes.
 
 Developed and maintained by [Made](http://www.madetech.co.uk?ref=github&repo=lita-mac_spotify_control).
 
-[![made](https://s3-eu-west-1.amazonaws.com/made-assets/googleapps/google-apps.png)](http://www.madetech.co.uk?ref=github&repo=lita-mac_spotify_control)
+[![made](https://s3-eu-west-1.amazonaws.com/made-assets/googleapps/google-apps.png)](http://www.madetech.co.uk?ref=github&repo=lita-hackers-news)
 
 More information on the HN API can be found [on their GitHub Repo](https://github.com/HackerNews/API)
 
