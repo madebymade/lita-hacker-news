@@ -2,8 +2,8 @@ require 'lita/handlers/hn/api'
 
 module Lita
   module Handlers
-    class HackersNews < Handler
-      include LitaHackersNews::Api
+    class HackerNews < Handler
+      include LitaHackerNews::Api
 
       route(%r{^hn$},
             :hn,
@@ -13,6 +13,6 @@ module Lita
       def hn; end
     end
 
-    Lita.register_handler(HackersNews)
+    Lita.register_handler(HackerNews)
   end
 end

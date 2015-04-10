@@ -1,4 +1,4 @@
-module LitaHackersNews
+module LitaHackerNews
   module Api
 
   end

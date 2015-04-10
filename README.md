@@ -1,15 +1,15 @@
-# lita-hackers-news
+# lita-hacker-news
 
-[![Build Status](https://travis-ci.org/madebymade/lita-hackers-news.svg?branch=master)](https://travis-ci.org/madebymade/lita-hackers-news)
-[![Code Climate](https://codeclimate.com/github/madebymade/lita-hackers-news/badges/gpa.svg)](https://codeclimate.com/github/madebymade/lita-hackers-news)
-[![Test Coverage](https://codeclimate.com/github/madebymade/lita-hackers-news/badges/coverage.svg)](https://codeclimate.com/github/madebymade/lita-hackers-news)
+[![Build Status](https://travis-ci.org/madebymade/lita-hacker-news.svg?branch=master)](https://travis-ci.org/madebymade/lita-hacker-news)
+[![Code Climate](https://codeclimate.com/github/madebymade/lita-hacker-news/badges/gpa.svg)](https://codeclimate.com/github/madebymade/lita-hacker-news)
+[![Test Coverage](https://codeclimate.com/github/madebymade/lita-hacker-news/badges/coverage.svg)](https://codeclimate.com/github/madebymade/lita-hacker-news)
 
 ## Installation
 
-Add lita-hackers-news to your Lita instance's Gemfile:
+Add lita-hacker-news to your Lita instance's Gemfile:
 
 ``` ruby
-gem 'lita-hackers-news'
+gem 'lita-hacker-news'
 ```
 
 ## Configuration
@@ -28,7 +28,7 @@ TODO: Describe any configuration attributes the plugin exposes.
 
 Developed and maintained by [Made](http://www.madetech.co.uk?ref=github&repo=lita-mac_spotify_control).
 
-[![made](https://s3-eu-west-1.amazonaws.com/made-assets/googleapps/google-apps.png)](http://www.madetech.co.uk?ref=github&repo=lita-hackers-news)
+[![made](https://s3-eu-west-1.amazonaws.com/made-assets/googleapps/google-apps.png)](http://www.madetech.co.uk?ref=github&repo=lita-hacker-news)
 
 More information on the HN API can be found [on their GitHub Repo](https://github.com/HackerNews/API)
 

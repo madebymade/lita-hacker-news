@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-  spec.name          = 'lita-hackers-news'
+  spec.name          = 'lita-hacker-news'
   spec.version       = '0.0.1'
   spec.authors       = ['Seb Ashton']
   spec.email         = ['seb@madebymade.co.uk']
   spec.description   = %q{A HN Handler for Lita.io}
   spec.summary       = %q{Add commands to return information from news.ycombinator.com}
-  spec.homepage      = 'https://github.com/madebymade/lita-hackers-news'
+  spec.homepage      = 'https://github.com/madebymade/lita-hacker-news'
   spec.license       = 'New-BSD'
   spec.metadata      = { 'lita_plugin_type' => 'handler' }
 
