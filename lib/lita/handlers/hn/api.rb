@@ -18,7 +18,7 @@ module LitaHackerNews
     end
 
     def fetch_story(id)
-      parsed_response("#{ENDPOINTS[:story]}/#{id}.json")
+      parsed_response("#{ENDPOINTS[:story]}#{id}.json")
     end
 
     def parsed_response(url)
