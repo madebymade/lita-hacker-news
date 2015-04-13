@@ -22,7 +22,7 @@ TODO: Describe any configuration attributes the plugin exposes.
 
 | Command              | Result                                   |
 | -------------------- | ---------------------------------------- |
-| TBD                  | TBC                                      |
+| hn                   | Show latest top 10 stories               |
 
 ##Credits
 
@@ -35,6 +35,9 @@ More information on the HN API can be found [on their GitHub Repo](https://githu
 Key contributions:
 
 * [Seb Ashton](https://github.com/sebashton)
+* [Scott Mason](https://github.com/sowasred2012)
+* [Luke Morton](https://github.com/DrPheltRight)
+* [Emile Swartz](https://github.com/emileswarts)
 
 ##License
 

@@ -1,0 +1,388 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/topstories.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '4001'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '[9366795,9365877,9366549,9366129,9365123,9366672,9365198,9366219,9366653,9366879,9365510,9365845,9366039,9366680,9366125,9364567,9364748,9364806,9365193,9365317,9364658,9365908,9366701,9365965,9364117,9364455,9365813,9365446,9365143,9364800,9365710,9364221,9366049,9364342,9365474,9366334,9366122,9366066,9365276,9366347,9364815,9364405,9364194,9366786,9364278,9366332,9366678,9365252,9364164,9365986,9365333,9364410,9364586,9366269,9365581,9366615,9365849,9363635,9363893,9363631,9363857,9365563,9364076,9365529,9365034,9363710,9363414,9362252,9363102,9365640,9363415,9363496,9364319,9366559,9363458,9363577,9363824,9364426,9363738,9363322,9365291,9364888,9364504,9363663,9366052,9362312,9364665,9363871,9363711,9364471,9362997,9363850,9362791,9365054,9364099,9362650,9362208,9363539,9363990,9366483,9364761,9365309,9364303,9361160,9361892,9365076,9364538,9366515,9365150,9364139,9362626,9362419,9362297,9361580,9347669,9366401,9364175,9363254,9365899,9362891,9360963,9362615,9363565,9363093,9356767,9363002,9355382,9364790,9364783,9362318,9364483,9365026,9362830,9365816,9355233,9362509,9364389,9362119,9364523,9361493,9363126,9359112,9362561,9356508,9359156,9361767,9363042,9360538,9360098,9360778,9360957,9360994,9360255,9357898,9362304,9364591,9362608,9362121,9354597,9360093,9353650,9354873,9353668,9352893,9359715,9354246,9359568,9354653,9365520,9359598,9359150,9345215,9364384,9360710,9360827,9356190,9364254,9360210,9363420,9358256,9353998,9358843,9360437,9350206,9358548,9360421,9365302,9353906,9360498,9359076,9354922,9362786,9360204,9363678,9360564,9360732,9353785,9360988,9353411,9356332,9360352,9361477,9356320,9359090,9363009,9362702,9362291,9361794,9361647,9359989,9361942,9365769,9361403,9360553,9364809,9363856,9355276,9363053,9317159,9363329,9346726,9337863,9362307,9363962,9360061,9363627,9361288,9363989,9358902,9341381,9365449,9363357,9362871,9363811,9359297,9363252,9349034,9357688,9359633,9360694,9359791,9359654,9360979,9355915,9358359,9360221,9364399,9355338,9346327,9256014,9355668,9357537,9347723,9326183,9348119,9261073,9260221,9360423,9256209,9328284,9347470,9351769,9314165,9120850,9291169,9315503,8669983,7621804,9365842,9359400,6881925,9359925,9348193,9360573,9359773,9360588,9360122,9357544,9360978,9349501,9357042,9362629,9359451,9352397,9358958,9362161,9353509,9362202,9358938,9352937,9352626,9363172,9362296,9359013,9338708,9362356,9350562,9351542,9362489,9342994,9360562,9349918,9358977,9359983,9362553,9362772,9362818,9361072,9357359,9359799,9334687,9359128,9361163,9362861,9360980,9361926,9360760,9362737,9360620,9362328,9362933,9360458,9357680,9343021,9362819,9360677,9360253,9358821,9361246,9341904,9357022,9356488,9353569,9359167,9354883,9357190,9359871,9353185,9361085,9347101,9362206,9361495,9361771,9340246,9346167,9357378,9359199,9359722,9362632,9357036,9358513,9358366,9360321,9360033,9359536,9337382,9357566,9363714,9360041,9334220,9325611,9350843,9327003,9359613,9350458,9354963,9359962,9359798,9357692,9360577,9354650,9359106,9360516,9356482,9316025,9361781,9361515,9353099,9355637,9346530,9360113,9361676,9357811,9360510,9362757,9356433,9362133,9362077,9353453,9360803,9354614,9361207,9360637,9351277,9360654,9360931,9333330,9316856,9362185,9352905,9360566,9360517,9360496,9360323,9356580,9360889,9355047,9359403,9358922,9332162,9359801,9355756,9338812,9354786,9355765,9356496,9357516,9355042,9354463,9360070,9333147,9359418,9358873,9353908,9354195,9356449,9350800,9352925,9355432,9355013,9356047,9358987,9359561,9281466,9319388,9356915,9340254,9203946,9284172,9359629,9342567,9359634,9359268,9351875,9353968,9360947,9352249,9359489,9359136,9347212,9351788,9357647,9358660,9353737,9354343,9352898,9356317,9349612,9352655,9353705,9346731,9353080,9353749,9354225,9357645,9355803,9359204,9353570,9355796,9351549,9356008,9346313,9353043,9355978,9354467,9359147,9358844,9356358,9354372,9352475,9357789,9347318,9353834,9352901,9354468,9354771,9357104,9357643,9356000,9358994,9356854,9338944,9356804,9358480,9356670,9357951,9356777,9354758,9351502,9356921]'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:24 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9366795.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '300'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"signa11","descendants":1,"id":9366795,"kids":[9366943],"score":42,"text":"","time":1428920457,"title":"German
+        author Guenter Grass dies","type":"story","url":"http://www.bbc.com/news/world-europe-32285705?ns_mchannel=social&ns_campaign=bbc_breaking&ns_source=twitter&ns_linkname=news_central"}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:25 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9365877.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '519'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"prawn","descendants":123,"id":9365877,"kids":[9366102,9366084,9366519,9366201,9366299,9366321,9366067,9366715,9366060,9366876,9366119,9366021,9366018,9366527,9366017,9366639,9366022,9366517,9366770,9366004,9366789,9366270,9366065,9366753,9366499,9366623,9366138,9366098,9366199,9366669,9366650,9366154,9366624,9366104,9366079],"score":252,"text":"","time":1428897183,"title":"The
+        button: social experiment driving Reddit crazy","type":"story","url":"http://www.vox.com/2015/4/10/8383165/reddit-button-explained"}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:26 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9366549.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '286'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImdlZWxlbiIsImRlc2NlbmRhbnRzIjoxMSwiaWQiOjkzNjY1NDks
+        ImtpZHMiOls5MzY2OTI1LDkzNjY5MjAsOTM2NjY2NCw5MzY2NzU0LDkzNjY3
+        OTgsOTM2Njg3MCw5MzY2NzkwLDkzNjY3NjMsOTM2Njc0Myw5MzY2NzI3XSwi
+        c2NvcmUiOjM3LCJ0ZXh0IjoiIiwidGltZSI6MTQyODkxNDI1NywidGl0bGUi
+        OiJTaG93IEhOOiBUeXBlU2xhYiDigJMgc2ltcGxlLCBzaGFyZWFibGUgdHlw
+        b2dyYXBoaWMgcG9zdGVycyIsInR5cGUiOiJzdG9yeSIsInVybCI6Imh0dHA6
+        Ly90eXBlc2xhYi5jb20ifQ==
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:26 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9366129.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '311'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"simas","descendants":41,"id":9366129,"kids":[9366821,9366901,9366780,9366511,9366254,9366329,9366582,9366265,9366241,9366512],"score":75,"text":"","time":1428904518,"title":"Why
+        Open Source Startups Fail","type":"story","url":"http://techcrunch.com/2015/04/12/the-real-reason-open-source-startups-fail/"}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:27 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9365123.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '423'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"mishmax","descendants":104,"id":9365123,"kids":[9365377,9365254,9365206,9365539,9365827,9365319,9365267,9365255,9365224,9365402,9365334,9365593,9365222,9365801,9366009,9365205,9365217,9366289,9366074,9365231,9365212,9365464,9365780],"score":263,"text":"","time":1428881125,"title":"Sprinklr
+        Acquires GetSatisfaction, Founders Get Nothing","type":"story","url":"https://twitter.com/monstro/status/585797211679657984"}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:27 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9366672.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '292'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"jgrahamc","descendants":2,"id":9366672,"kids":[9366950,9366948],"score":16,"text":"","time":1428917206,"title":"Plain
+        web text offenders: sending my location over HTTP when HTTPS was possible","type":"story","url":"http://blog.jgc.org/2015/04/plain-web-text-offenders-sending-my.html"}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:28 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9365198.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '469'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"lelf","descendants":111,"id":9365198,"kids":[9366951,9365623,9365445,9365567,9365552,9365634,9366304,9366127,9365496,9366578,9366713,9365833,9365680,9365998,9366600,9366595,9365571,9366202,9366246,9366147,9365525,9366707,9366359,9366365,9365885,9365532,9365647,9365835,9365416,9366723,9365484,9366714,9365424],"score":212,"time":1428882668,"title":"Voyage
+        to Nowhere: The Amazon Kindle Story","type":"story","url":"http://www.cgpgrey.com/blog/voyage-to-nowhere"}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:28 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9366219.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '316'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"sjcsjc","descendants":33,"id":9366219,"kids":[9366945,9366836,9366690,9366896,9366884,9366834,9366828,9366760,9366747,9366922],"score":47,"text":"","time":1428906542,"title":"Fatal
+        silence: Why do so many fortysomething men kill themselves?","type":"story","url":"http://www.bbc.co.uk/news/magazine-32231774"}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:28 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9366653.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '285'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJieSI6ImFuZHlnYW1ibGVzIiwiZGVzY2VuZGFudHMiOjMsImlkIjo5MzY2
+        NjUzLCJraWRzIjpbOTM2NjcyNCw5MzY2ODg3XSwic2NvcmUiOjExLCJ0ZXh0
+        IjoiIiwidGltZSI6MTQyODkxNjczMywidGl0bGUiOiJNYW5qYXJvIEJsYW1l
+        cyBHbG9iYWxTaWduIGZvciBTU0wgQ2VydCBleHBpcnkgYWZ0ZXIgbm90IHJl
+        Y2VpdmluZyDigJxleHRlbnNpb27igJ0iLCJ0eXBlIjoic3RvcnkiLCJ1cmwi
+        OiJodHRwOi8vbWFuamFyby5naXRodWIuaW8vZXhwaXJlZF9TU0xfY2VydGlm
+        aWNhdGVfdXBkYXRlLyJ9
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:29 GMT
+- request:
+    method: get
+    uri: https://hacker-news.firebaseio.com/v0/item//9366879.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - hacker-news.firebaseio.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '188'
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: UTF-8
+      string: '{"by":"matm","id":9366879,"score":1,"text":"","time":1428921812,"title":"Heap
+        is hiring engineers to build a new approach to analytics","type":"job","url":"https://heapanalytics.com/jobs"}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 11:15:29 GMT
+recorded_with: VCR 2.9.2

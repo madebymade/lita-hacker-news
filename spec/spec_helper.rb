@@ -3,8 +3,10 @@ CodeClimate::TestReporter.start
 
 require 'capybara/rspec'
 
-require "lita-hacker-news"
-require "lita/rspec"
+require 'lita-hacker-news'
+require 'lita/rspec'
+
+require 'vcr'
 
 # A compatibility mode is provided for older plugins upgrading from Lita 3. Since this plugin
 # was generated with Lita 4, the compatibility mode should be left disabled.
@@ -35,4 +37,11 @@ RSpec.configure do |config|
 
     mocks.verify_partial_doubles = true
   end
+end
+
+VCR.configure do |c|
+  c.hook_into :webmock
+  c.cassette_library_dir = 'spec/fixtures/cassettes'
+  c.default_cassette_options = { record: :new_episodes }
+  c.ignore_localhost = true
 end
